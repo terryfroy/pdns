@@ -204,9 +204,9 @@ Reverse DNS functions
   
   Example records::
   
-    *.0.0.127.in-addr.arpa IN    LUA    PTR "createReverse('%1%.%2%.%3%.%4%.static.example.com')"
-    *.1.0.127.in-addr.arpa IN    LUA    PTR "createReverse('%5%.static.example.com')"
-    *.2.0.127.in-addr.arpa IN    LUA    PTR "createReverse('%6%.static.example.com')"
+    *.0.0.127.in-addr.arpa IN    LUA    PTR "createReverse6('%1%.%2%.%3%.%4%.static.example.com')"
+    *.1.0.127.in-addr.arpa IN    LUA    PTR "createReverse6('%5%.static.example.com')"
+    *.2.0.127.in-addr.arpa IN    LUA    PTR "createReverse6('%6%.static.example.com')"
  
   When queried::
   
